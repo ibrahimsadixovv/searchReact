@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.boxes{
+ 
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 90%;
+gap: 50px;
+}
+
+.box{
+  width:200px;
+  height:150px;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding : 10px 15px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+.box h2{
+  font-size: 20px;
+  width: 80%;
+  overflow: -moz-hidden-unscrollable;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: clip; 
+
+}
+.cardButton{
+  height: 30px;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.box p {
+  color: green;
+  font-weight: bold;
+}
+.cardButton:hover{
+  background-color: rgb(161, 87, 87);
+}
